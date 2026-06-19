@@ -1,0 +1,26 @@
+body {
+    background-color: #bababa;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.item {
+  background-color: #ffffff;
+  /* height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(35, 32, 32);
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
