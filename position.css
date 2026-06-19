@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 2000px;
+}
+
+
+.static {
+    background-color: rgb(222, 255, 139);
+    padding: 10px;
+    position: static;
+}
+
+.relative {
+    background-color: rgba(236, 139, 255, 0.843);
+    padding: 10px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+
+.bi-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(2, 172, 2);
+}
+
+.bi-whatsapp:hover {
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
